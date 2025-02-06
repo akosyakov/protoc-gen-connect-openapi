@@ -196,4 +196,11 @@ message AllTypes {
     AllTypes msg_option = 96;
     Enum enum_option = 97;
   }
+
+  // oneof with optional fields
+  oneof oneof_optional_fields {
+    optional double double_optional_option = 98;
+    optional float float_optional_option = 99;
+    optional int32 int32_optional_option = 100;
+  }
 }
