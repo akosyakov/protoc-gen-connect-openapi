@@ -10,8 +10,8 @@ import (
 	"google.golang.org/protobuf/proto"
 	pluginpb "google.golang.org/protobuf/types/pluginpb"
 
+	"github.com/akosyakov/protoc-gen-connect-openapi/internal/converter"
 	"github.com/lmittmann/tint"
-	"github.com/sudorandom/protoc-gen-connect-openapi/internal/converter"
 )
 
 var (
